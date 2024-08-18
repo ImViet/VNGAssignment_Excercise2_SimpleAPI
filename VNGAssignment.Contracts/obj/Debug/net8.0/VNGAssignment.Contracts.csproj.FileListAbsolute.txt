@@ -1,0 +1,12 @@
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\bin\Debug\net8.0\VNGAssignment.Contracts.deps.json
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\bin\Debug\net8.0\VNGAssignment.Contracts.dll
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\bin\Debug\net8.0\VNGAssignment.Contracts.pdb
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.AssemblyInfoInputs.cache
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.AssemblyInfo.cs
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.csproj.CoreCompileInputs.cache
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.dll
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\refint\VNGAssignment.Contracts.dll
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.pdb
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\ref\VNGAssignment.Contracts.dll
+E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.Contracts\obj\Debug\net8.0\VNGAssignment.Contracts.csproj.AssemblyReference.cache

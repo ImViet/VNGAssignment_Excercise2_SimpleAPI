@@ -1,0 +1,107 @@
+20:10:38 [Information] [Microsoft.EntityFrameworkCore.Update] Saved 3 entities to in-memory store.
+20:10:39 [Information] [Microsoft.Hosting.Lifetime] Now listening on: "https://localhost:7209"
+20:10:39 [Information] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5073"
+20:10:39 [Information] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+20:10:39 [Information] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+20:10:39 [Information] [Microsoft.Hosting.Lifetime] Content root path: "E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.WebAPI"
+20:10:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/index.html""" - null null
+20:10:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 406.8387ms
+20:10:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/_vs/browserLink""" - null null
+20:10:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20:10:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/_framework/aspnetcore-browser-refresh.js""" - 200 13776 "application/javascript; charset=utf-8" 26.9396ms
+20:10:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 132.3711ms
+20:10:41 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/v1/swagger.json""" - null null
+20:10:41 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 298.0059ms
+20:10:56 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:10:57 [Error] [] Logtime: 18/08/2024 20:10:57. Detail: {"StatusCode":1,"Message":"You are not authorized","Data":null}
+20:10:57 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/api/Books""" - 401 null "application/json" 202.9017ms
+20:19:21 [Information] [Microsoft.EntityFrameworkCore.Update] Saved 3 entities to in-memory store.
+20:19:21 [Information] [Microsoft.Hosting.Lifetime] Now listening on: "https://localhost:7209"
+20:19:21 [Information] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5073"
+20:19:21 [Information] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+20:19:21 [Information] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+20:19:21 [Information] [Microsoft.Hosting.Lifetime] Content root path: "E:\Workspace\Practice\VNG\VNGAssignment_SimpleRESTAPI_DinhQuocViet\VNGAssignment.WebAPI"
+20:19:23 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/index.html""" - null null
+20:19:24 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20:19:24 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/_vs/browserLink""" - null null
+20:19:24 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 778.881ms
+20:19:24 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/_framework/aspnetcore-browser-refresh.js""" - 200 13776 "application/javascript; charset=utf-8" 52.3631ms
+20:19:24 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 374.4084ms
+20:19:24 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/v1/swagger.json""" - null null
+20:19:25 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7209""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 241.8525ms
+20:19:40 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:19:40 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:19:40 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:19:41 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:19:41 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)" in 200.3884ms
+20:19:41 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:19:41 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 252.577ms
+20:19:53 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:19:53 [Error] [] Logtime: 18/08/2024 20:19:53. Detail: {"StatusCode":1,"Message":"You are not authorized","Data":null}
+20:19:53 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 401 null "application/json" 214.4483ms
+20:19:57 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:19:57 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:19:57 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:19:57 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:19:57 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)" in 52.9837ms
+20:19:57 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:19:57 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 66.2099ms
+20:20:04 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "POST" "https"://"localhost:7209""""/api/Books""" - "application/json" 75
+20:20:04 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Add (VNGAssignment.WebAPI)"'
+20:20:04 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Add\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(VNGAssignment.Contracts.Dtos.BookDto.BookCreateDto)" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:20:04 [Information] [Microsoft.EntityFrameworkCore.Update] Saved 1 entities to in-memory store.
+20:20:04 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:20:04 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.Add (VNGAssignment.WebAPI)" in 145.2377ms
+20:20:05 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Add (VNGAssignment.WebAPI)"'
+20:20:05 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "POST" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 165.6943ms
+20:20:14 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:20:14 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:20:14 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:20:14 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:20:14 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)" in 3.1787ms
+20:20:14 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:20:14 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 13.425ms
+20:20:28 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7209""""/api/Books/5""" - "application/json" 74
+20:20:28 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Update (VNGAssignment.WebAPI)"'
+20:20:28 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Update\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, VNGAssignment.Contracts.Dtos.BookDto.BookUpdateDto)" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:20:28 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.Update (VNGAssignment.WebAPI)" in 124.9914ms
+20:20:28 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Update (VNGAssignment.WebAPI)"'
+20:20:28 [Error] [] Logtime: 18/08/2024 20:20:28. Detail: {"StatusCode":1,"Message":"Book does not exist.","Data":null}
+20:20:28 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7209""""/api/Books/5""" - 400 null "application/json" 166.3902ms
+20:20:55 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:20:55 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:20:55 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:20:55 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:20:55 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)" in 4.166ms
+20:20:55 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:20:55 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 17.1799ms
+20:21:01 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7209""""/api/Books/4""" - "application/json" 74
+20:21:01 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Update (VNGAssignment.WebAPI)"'
+20:21:01 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Update\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, VNGAssignment.Contracts.Dtos.BookDto.BookUpdateDto)" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:21:01 [Information] [Microsoft.EntityFrameworkCore.Update] Saved 1 entities to in-memory store.
+20:21:01 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:21:01 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.Update (VNGAssignment.WebAPI)" in 67.5103ms
+20:21:01 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Update (VNGAssignment.WebAPI)"'
+20:21:01 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7209""""/api/Books/4""" - 200 null "application/json; charset=utf-8" 80.8998ms
+20:21:03 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:21:03 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:21:03 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:21:03 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:21:03 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)" in 4.6153ms
+20:21:03 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:21:03 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 15.8408ms
+20:21:08 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7209""""/api/Books/4""" - null null
+20:21:08 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Delete (VNGAssignment.WebAPI)"'
+20:21:08 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"Delete\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32)" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:21:08 [Information] [Microsoft.EntityFrameworkCore.Update] Saved 1 entities to in-memory store.
+20:21:08 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:21:08 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.Delete (VNGAssignment.WebAPI)" in 13.9056ms
+20:21:08 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.Delete (VNGAssignment.WebAPI)"'
+20:21:08 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7209""""/api/Books/4""" - 200 null "application/json; charset=utf-8" 27.6525ms
+20:21:10 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - null null
+20:21:10 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:21:10 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "VNGAssignment.WebAPI.Controllers.BooksController" ("VNGAssignment.WebAPI").
+20:21:10 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing "OkObjectResult", writing value of type '"VNGAssignment.Contracts.Common.ResponseResult"'.
+20:21:10 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action "VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)" in 2.3049ms
+20:21:10 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint '"VNGAssignment.WebAPI.Controllers.BooksController.GetAll (VNGAssignment.WebAPI)"'
+20:21:10 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/1.1" "GET" "https"://"localhost:7209""""/api/Books""" - 200 null "application/json; charset=utf-8" 15.601ms
